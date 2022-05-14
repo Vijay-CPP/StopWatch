@@ -12,7 +12,7 @@ function animate(id) {
 
     setTimeout(() => {
         handler.classList.remove("pressed");
-    }, 200);
+    }, 100);
 }
 
 for (let index = 0; index < buttons.length; index++) {
